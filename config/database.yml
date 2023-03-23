@@ -10,7 +10,7 @@ default: &default
   adapter: postgresql
   host: localhost
   username: postgres
-  password: allcowseatgrass 
+  password: allcow 
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
